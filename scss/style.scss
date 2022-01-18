@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// div, span {
+//     outline: 2px solid red;
+// }
+
+// li {
+//     outline: 2px solid blue;
+// }
+
+@import 'variables';
+@import 'header';
+@import 'navbar';
+@import 'mainSection';
+@import 'mediaQuery700';
+
+body {
+    font-family: $Lato;
+    background: #ddd;
+}

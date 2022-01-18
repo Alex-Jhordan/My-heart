@@ -1,0 +1,49 @@
+@media (min-width: 800px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        //flex-wrap: wrap;
+        .hamburgerMenuIcon {
+            display: none;
+        }
+
+        .closeIcon {
+            display: none;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        &--ul {
+            flex: 1;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .mainSection {
+        flex-direction: row;
+        align-items: center;
+        .information {
+            width: 30%;
+
+            .dates {
+                .text {
+                    .title {
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+
+        .post {
+            width: 70%;
+        }
+    }
+}
